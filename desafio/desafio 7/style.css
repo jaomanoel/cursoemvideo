@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    background-color: black;
+}
+
+.bloco1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bloco2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.voltarB {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}

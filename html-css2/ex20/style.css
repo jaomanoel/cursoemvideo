@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+div {
+    background-color: aqua;
+    text-align: center;
+    border: 2px black solid;
+    height: 200px;
+    width: 200px;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: red;
+}

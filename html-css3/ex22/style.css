@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url('images/wallpaper001.jpg');
+}
+
+.quadrado{
+    display: inline-block;
+    background-color: lightgray;
+    border: 2px black solid;
+    border-radius: .5rem;
+    height: 30rem;
+    width: 30rem;
+}
+
+div#q1{
+    background-color: skyblue;
+}
+
+div#q2{
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+div#q3{
+    background-image: url('images/pattern003.png');
+}
