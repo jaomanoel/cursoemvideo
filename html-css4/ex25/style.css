@@ -14,12 +14,12 @@ body{
 }
 
 .cell{
-    margin-top: 50px;
+    margin-top: -12px;
 }
 
 .cell > img{
     display: block;
-    margin: 50px auto;
+    margin: 16px auto;
     overflow: hidden;
     width: 311px;
     height: 627px;
@@ -27,7 +27,7 @@ body{
 
 iframe{
     display: block;
-    margin: -605px auto;
+    margin: -571px auto;
     position: relative;
     width: 280px;
     height: 480px;
@@ -48,17 +48,19 @@ iframe{
 }
 
 .menu a{
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
+    box-shadow: 2px 2px 2px transparent;
     width: 50px;
     height: 50px;
     margin-top: 20px;
     margin-right: 250%;
-    border-radius: 50%
+    border-radius: 50%;
+    border: 2px solid transparent;
 }
 
 .menu a:hover{
     border: 2px solid white;
     transform: translate(-3px, -3px);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
     transition: transform .3s, border .1s;
 }
 
